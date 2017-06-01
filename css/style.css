@@ -1,0 +1,160 @@
+
+
+body, div, p, span, h1, h2, h3, h4, h5, a, input, ul, ol, li, dl, dt, dd, img, textarea { padding: 0px; margin: 0px; list-style: outside none none; border: 0px none; }
+body { color: rgb(51, 51, 51); font-size: 12px; font-family: "微软雅黑"; }
+a { color: rgb(102, 102, 102); text-decoration: none; }
+a:hover { text-decoration: none; color: rgb(245, 72, 164); }
+@font-face {
+  font-family: "vipfont";  src: url('../iconfont.eot') format("embedded-opentype"), url('../iconfont.woff') format("woff"), url('../iconfont.ttf') format("truetype"), url('../iconfont.svg') format("svg");}
+.vipfont { font-family: "vipfont" ! important; font-size: 20px; font-style: normal; -webkit-text-stroke-width: 0.2px; }
+#nav_left { width: 76px; height: 453px; border: 1px solid rgb(214, 214, 214); border-radius: 3px; position: fixed; left: 50%; top: 50%; margin-top: -226px; z-index: 9; background: rgb(255, 255, 255) none repeat scroll 0% 0%; margin-left: -680px; display: none; }
+.nav_left { padding: 4px; }
+.nav_left li { height: 36px; border-bottom: 1px solid rgb(214, 214, 214); line-height: 36px; }
+.nav_left li.last { border: 0px none; }
+.nav_left span { float: left; }
+.nav_left .vipfont { padding: 0px 7px; }
+.nav_left a { width: 100%; height: 100%; display: block; border-radius: 3px; }
+.nav_left a.current { background: rgb(241, 1, 128) none repeat scroll 0% 0%; height: 38px; color: rgb(255, 255, 255); }
+#bar { height: 28px; background: rgb(245, 245, 245) none repeat scroll 0% 0%; }
+.bar_in { width: 1170px; height: 28px; margin: 0px auto; line-height: 28px; }
+.bar_l { float: left; height: 28px; }
+.bar_r { width: 650px; height: 28px; float: right; }
+.bar_in li { float: left; position: relative; }
+.bar_in .one { padding-right: 20px; background: transparent url(../images/wp-nav-cutline.png) no-repeat scroll right center; margin-right: 12px; }
+.bar_in .three a { padding-right: 12px; background: transparent url(../images/triangle.jpg) no-repeat scroll right center; }
+.bar_in .three a:hover { background: transparent url(../images/triangle_hover.jpg) no-repeat scroll right center; }
+.bar_in .two span { padding-left: 17px; background: transparent url(../images/mobile.jpg) no-repeat scroll left center; }
+.bar_in .two a:hover span { background: transparent url(../images/mobile_hover.jpg) no-repeat scroll left center; }
+.bar_l .three a { padding-right: 30px; }
+.bar_l .three { position: relative; }
+.bar_l li { margin-left: 17px; }
+.bar_l .three .hide { width: 290px; float: none; position: absolute; left: -17px; top: 28px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; z-index: 800; padding: 10px; display: none; box-shadow: 0px 3px 10px rgb(204, 204, 204); }
+.bar_l .three .hide li { float: none; line-height: 26px; }
+.bar_l .three .hide li p { height: 33px; border-bottom: 1px dashed rgb(204, 204, 204); font-size: 14px; font-weight: bold; line-height: 33px; margin-bottom: 20px; }
+.bar_l .three .hide a { background: transparent none repeat scroll 0px center; margin-left: 10px; }
+.markl { position: absolute; left: -70px; top: 28px; padding: 5px; border: 1px solid rgb(204, 204, 204); background: rgb(255, 255, 255) none repeat scroll 0% 0%; display: none; }
+#header { width: 1170px; height: 100px; margin: 0px auto; }
+.logo { float: left; margin-top: 5px; }
+.logo_r { width: 550px; height: 40px; float: right; margin-top: 30px; }
+.logo_r li { float: left; margin-right: 15px; }
+.logo_r .shoppingcar { padding-left: 46px; background: transparent url(../images/shopping.jpg) no-repeat scroll left center; display: block; padding-top: 20px; }
+#nav { height: 40px; background: rgb(241, 5, 130) none repeat scroll 0% 0%; }
+#fixed { position: fixed; left: 0px; top: 0px; height: 40px; width: 100%; background: rgb(241, 5, 130) none repeat scroll 0% 0%; z-index: 600; display: none; }
+.nav_in { width: 1170px; height: 40px; margin: 0px auto; line-height: 40px; }
+.nav_in a { color: rgb(255, 255, 255); padding: 0px 20px; display: block; font-size: 14px; }
+.nav_in a:hover { background: rgb(219, 10, 118) none repeat scroll 0% 0%; }
+.nav_in .current { font-weight: bold; background: rgb(189, 16, 103) none repeat scroll 0% 0%; }
+.nav_in .tomorrow { padding-left: 46px; background: transparent url(../images/tomorrow.jpg) no-repeat scroll 20px center; }
+.nav_in .tomorrow:hover { background: rgb(219, 10, 118) url(../images/tomorrow_hover.jpg) no-repeat scroll 20px center; }
+.nav_l { float: left; }
+.nav_l li { float: left; }
+.nav_in .nav_r { float: right; padding-left: 60px; padding-right: 32px; background: rgb(219, 10, 118) url(../images/sell.png) no-repeat scroll 35px center; }
+.nav_in .nav_r:hover { background: rgb(219, 10, 118) url(../images/sell.png) no-repeat scroll 35px center; }
+.moreli { position: relative; }
+.moretom { width: 446px; position: absolute; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 15px 10px 10px; overflow: hidden; left: -398px; top: 40px; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4); display: none; z-index: 600; }
+.nav_l .moretom li { width: 136px; height: 76px; float: left; margin-left: 10px; margin-bottom: 10px; }
+.nav_l .moretom li a { width: auto; height: auto; padding: 0px; }
+.nav_l .moretom a:hover { background: transparent none repeat scroll 0px center; }
+#content { height: auto; background: transparent url(../images/bg.jpg) no-repeat scroll center top; padding-top: 30px; }
+.banner { width: 1170px; height: 466px; margin: 0px auto; background: rgba(255, 255, 255, 0.7) none repeat scroll 0% 0%; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); position: relative; }
+.banner .top { position: relative; }
+.banner .top img { padding: 12px; }
+.banner .top li { width: 1146px; height: 400px; float: left; position: absolute; }
+.banner .down { width: 390px; height: 35px; margin: 0px auto 0px -195px; line-height: 35px; position: absolute; bottom: 0px; left: 50%; }
+.banner .down li { width: 195px; height: 35px; text-align: center; float: left; cursor: pointer; }
+.banner .down li.current { border-bottom: 3px solid rgb(230, 5, 125); background: transparent url(../images/banner_right.jpg) no-repeat scroll right center; }
+.banner .down li:hover { border-bottom: 3px solid rgb(230, 5, 125); background: transparent url(../images/banner_right.jpg) no-repeat scroll right center; }
+.banner span { width: 30px; height: 100px; position: absolute; top: 35%; opacity: 0.3; cursor: pointer; z-index: 500; display: none; }
+.banner:hover span { display: block; }
+.banner .left { background: transparent url(../images/left.png) repeat scroll 0% 0%; left: 12px; }
+.banner .right { background: transparent url(../images/right.png) repeat scroll 0% 0%; right: 12px; }
+.content { width: 1170px; height: auto; margin: 0px auto; }
+.content a:hover { opacity: 0.9; }
+.content h2 { padding-top: 45px; }
+.brand_new { width: 1300px; overflow: hidden; }
+.brand_new li { float: left; margin-top: 30px; margin-right: 30px; }
+.brand_new a { display: block; position: relative; width: 570px; height: 350px; color: rgb(51, 51, 51); }
+.brand_new .brand_logo { position: absolute; width: 320px; height: 100px; background: transparent url(../images/brand_bg.png) repeat scroll 0% 0%; left: 50%; bottom: 25px; margin-left: -160px; text-align: center; opacity: 0; transition: all 1s ease 0s; }
+.brand_new a:hover .brand_logo { opacity: 1; }
+.women { margin-top: 60px; border-bottom: 1px solid rgb(26, 26, 26); overflow: hidden; }
+.women img { float: left; }
+.women a { float: right; font-size: 14px; font-weight: normal; margin-top: 20px; }
+.women .vipfont { font-size: 16px; margin-left: 4px; }
+.brand_women { width: 1300px; overflow: hidden; }
+.brand_women dl { width: 570px; height: 312px; float: left; margin-top: 20px; margin-right: 30px; }
+.brand_women img { width: 570px; height: 273px; }
+.brand_women dt { width: 570px; height: 273px; position: relative; }
+.brand_women dt p { position: absolute; left: 0px; bottom: 0px; width: 546px; padding-left: 24px; line-height: 30px; background: transparent url(../images/woman_bg_big.png) repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.brand_women dd .left { float: left; font-size: 14px; margin-left: 20px; }
+.brand_women dd strong { font-size: 26px; color: rgb(241, 5, 130); }
+.brand_women .left a { margin-left: 12px; color: rgb(77, 77, 77); }
+.brand_women dd .right { float: right; padding-left: 20px; background: transparent url(../images/time.png) no-repeat scroll left center; margin-top: 14px; margin-right: 20px; }
+.women_more { border-top: 1px solid rgb(232, 232, 232); margin-top: 88px; margin-bottom: 70px; }
+.women_more a { display: block; width: 324px; height: 44px; line-height: 44px; text-align: center; color: rgb(255, 255, 255); font-size: 16px; background: rgb(241, 1, 128) none repeat scroll 0% 0%; margin: 0px auto; border-radius: 0px 0px 3px 3px; }
+.fashion { height: auto; padding-top: 20px; background: transparent url(../images/fashion_bg.jpg) no-repeat scroll center top; }
+.fashion_in { width: 1170px; height: 485px; margin: 0px auto; }
+.fashion_r { width: 970px; height: 485px; float: right; }
+.fashion_r_l { width: 474px; height: 485px; float: left; }
+.fashion_r_r { width: 485px; height: 485px; float: right; }
+.fashion_r_l .top { display: block; width: 474px; height: 237px; background: transparent url(../images/fashion_img01_pic_v3.jpg) no-repeat scroll left top; margin-bottom: 10px; position: relative; }
+.fashion_r_l .top:hover { background-position: left bottom; }
+.fashion_r_l .top .font { position: absolute; left: 306px; top: 150px; text-align: center; color: rgb(102, 102, 102); }
+.fashion_r_l .down { display: block; width: 474px; height: 237px; background: transparent url(../images/fashion_img02_pic_v2.jpg) no-repeat scroll right top; position: relative; }
+.fashion_r_l .down:hover { background-position: right bottom; }
+.fashion_r_l .down .font { position: absolute; left: 85px; top: 150px; text-align: center; color: rgb(102, 102, 102); }
+.car { padding-top: 20px; background: transparent url(../images/car_bg_v4.jpg) no-repeat scroll center top; }
+.car_in { width: 1170px; height: 403px; background: rgb(18, 18, 18) none repeat scroll 0% 0%; margin: 0px auto; }
+.car_l { float: left; width: 566px; height: 373px; border: 3px solid rgb(18, 18, 18); margin-top: 12px; margin-left: 12px; transition: all 0.5s ease 0s; position: relative; }
+.car_l:hover { border-color: rgb(255, 255, 255); }
+.car_l span { width: 170px; height: 38px; background: transparent url(../images/car_btn.png) no-repeat scroll left top; position: absolute; }
+.car_l:hover span { background-position: left bottom; }
+.car_r { width: 565px; height: 379px; float: right; margin-top: 12px; margin-right: 12px; }
+.car_r a { float: left; width: 272px; height: 373px; border: 3px solid rgb(18, 18, 18); position: relative; transition: all 0.5s ease 0s; }
+.car_r a.left { margin-right: 9px; }
+.car_r .font { position: absolute; left: 0px; bottom: 0px; height: 60px; width: 272px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; text-align: center; font-size: 14px; padding-top: 20px; color: rgb(51, 51, 51); }
+.car_r strong { font-size: 16px; }
+.car_r a:hover { border-color: rgb(255, 255, 255); }
+.prediction dl { width: 270px; height: 169px; }
+.prediction dl img { width: 270px; height: 129px; }
+.prediction dt { width: 270px; height: 129px; }
+.prediction dt p { width: 245px; padding-left: 25px; }
+.prediction dd .left { margin-left: 10px; }
+.prediction .pre { position: relative; width: 270px; height: 129px; display: block; }
+.prediction .pre span { position: absolute; width: 108px; height: 24px; background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%; border-radius: 3px; line-height: 24px; text-align: center; color: rgb(255, 255, 255); left: 50%; margin-left: -54px; top: 50px; }
+.prediction_more { border: 0px none; }
+.prediction_more a { width: 340px; height: 60px; line-height: 60px; border-radius: 3px; }
+#footer { height: 500px; }
+.footer_top { height: 430px; background: rgb(252, 252, 252) none repeat scroll 0% 0%; }
+.footer_in { width: 960px; height: 430px; margin: 0px auto; }
+.footer_in ul { padding-top: 30px; padding-left: 10px; height: 136px; }
+.footer_in ul li { float: left; margin-right: 77px; }
+.footer_in ul li.nomargin { margin-right: 0px; }
+.footer_center { height: 170px; }
+.footer_center dl { width: 145px; height: 146px; border-right: 1px solid rgb(224, 224, 224); float: left; padding-left: 16px; }
+.footer_center dt { height: 25px; line-height: 24px; }
+.footer_center dd { line-height: 20px; }
+.footer_center dd a { padding-left: 8px; background: transparent url(../images/dot.jpg) no-repeat scroll 2px center; }
+.footer_center dl.last { width: 120px; border-right: 0px none; text-align: center; }
+.about_us { height: 30px; background: rgb(215, 35, 126) none repeat scroll 0% 0%; text-align: center; line-height: 30px; color: rgb(255, 255, 255); }
+.about_us a { color: rgb(255, 255, 255); }
+.about_us a:hover { color: rgb(204, 204, 204); }
+.copy { padding-top: 14px; line-height: 19px; text-align: center; }
+.footer_down { width: 960px; height: 70px; margin: 0px auto; text-align: center; }
+#nav_right { width: 36px; height: 100%; position: fixed; right: 0px; top: 0px; background: rgb(38, 38, 38) none repeat scroll 0% 0%; }
+.nav_right { width: 100%; height: 100%; position: relative; }
+.nav_top a, .nav_down a { display: block; width: 36px; height: 40px; background: transparent url(../images/sprite.png) repeat scroll -82px 0px; margin-top: 20px; }
+.nav_top { position: absolute; left: 0px; top: 20%; }
+.nav_down { position: absolute; left: 0px; bottom: 30px; }
+.nav_top .a1:hover { background-position: -82px -45px; }
+.nav_top .a2 { background-position: -164px 0px; }
+.nav_top .a2:hover { background-position: -41px 0px; }
+.nav_top .a3 { background-position: -41px -45px; }
+.nav_top .a3:hover { background-position: -123px 0px; }
+.nav_top .a4 { background-position: -123px -45px; }
+.nav_top .a4:hover { background-position: -164px -45px; }
+.nav_top .a5 { height: 126px; background: transparent url(../images/shop.png) repeat scroll 0% 0%; }
+.nav_top .a5:hover { background: transparent url(../images/shop_hover.png) repeat scroll 0% 0%; }
+.nav_down .a6 { height: 36px; background-position: -82px -130px; }
+.nav_down .a6:hover { background-position: -123px -130px; }
+.nav_down .a7 { height: 36px; background-position: -205px 0px; }
+.nav_down .a7:hover { background-position: 0px -130px; }
